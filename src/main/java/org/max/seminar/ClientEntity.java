@@ -13,6 +13,7 @@ public class ClientEntity {
     private String district;
     private String street;
     private String house;
+    @Column(name = "apartment")
     private String apartment;
 
     @Id
@@ -86,7 +87,7 @@ public class ClientEntity {
     }
 
     
-    @Column(name = "apartment")
+//    @Column(name = "apartment")
     public String getApartment() {
         return apartment;
     }

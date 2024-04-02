@@ -38,6 +38,9 @@ public class CurrentTest extends AbstractTest {
         entity.setCurrentId((short) 2);
         entity.setClient((short) 1);
         entity.setEmployee((short) 1);
+//        entity.setBalance("1");
+//        entity.setOpenDate("2002-01-24");
+//        entity.setNumber("3");
         //when
         Session session = getSession();
         session.beginTransaction();
